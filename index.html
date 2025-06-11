@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oferte Speciale</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2d2d2d;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin-top: 0;
+    }
+    .btn {
+      display: block;
+      text-align: center;
+      background: #ff6600;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      margin: 15px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e65c00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Oferte Speciale 🔥</h1>
+    <p>Descoperă cele mai bune oferte cu livrare rapidă!</p>
+  </header>
+
+  <div class="container">
+    <!-- Produs 1 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200?text=Produs+1" alt="Produs 1">
+      <div class="card-content">
+        <h3>Căști wireless Bluetooth</h3>
+        <p>Sunet clar și autonomie mare. Perfecte pentru sport sau birou.</p>
+      </div>
+      <a href="https://link-taffiliat.com/produs1" target="_blank" class="btn">Vezi oferta 🔗</a>
+    </div>
+
+    <!-- Produs 2 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200?text=Produs+2" alt="Produs 2">
+      <div class="card-content">
+        <h3>Smartwatch elegant</h3>
+        <p>Monitorizează sănătatea și activitatea ta zilnică. Stil și funcționalitate.</p>
+      </div>
+      <a href="https://link-taffiliat.com/produs2" target="_blank" class="btn">Vezi oferta 🔗</a>
+    </div>
+
+    <!-- Produs 3 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200?text=Produs+3" alt="Produs 3">
+      <div class="card-content">
+        <h3>Aspirator robot</h3>
+        <p>Curățenie automată fără efort. Ideal pentru orice locuință.</p>
+      </div>
+      <a href="https://link-taffiliat.com/produs3" target="_blank" class="btn">Vezi oferta 🔗</a>
+    </div>
+  </div>
+</body>
+</html>
